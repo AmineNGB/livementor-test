@@ -1,8 +1,9 @@
 # Jsontocsv
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jsontocsv`. To experiment with that code, run `bin/console` for an interactive prompt.
+A way to convert a json file in a csv.
+It is a Ruby lib aiming to convert JSON files composed of arrays of objects (all following the same schema) to a CSV file where one line equals one object.
 
-TODO: Delete this and the text above, and describe your gem
+Edge cases are not treated, you have to put a valid Json.
 
 ## Installation
 
@@ -22,8 +23,11 @@ Or install it yourself as:
 
 ## Usage
 
-launch:
-     $ ruby lib/jsontocsv.rb
+Launch:
+    ruby lib/jsontocsv.rb
+    --> exemple = JsonToConvert.new('your URL contains your Json')
+    --> exemple.convert_json_to_csv
+    
 
 ## Development
 

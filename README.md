@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+launch:
+     $ ruby lib/jsontocsv.rb
 
 ## Development
 

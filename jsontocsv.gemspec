@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["amineneghbel@gmail.com"]
 
   spec.summary       = %q{this gem is for the livementor test.}
-  spec.description   = %q{with this gem u can convert json to csv}
+  spec.description   = %q{with this gem you can convert json to csv}
   spec.homepage      = "https://github.com/AmineNGB/livementor-gem"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
